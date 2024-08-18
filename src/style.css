@@ -2,5 +2,13 @@
   --primary-color: #f8e8a6;
 }
 body {
-  color: var(--primary-color);
+  background: var(--primary-color);
+  text-align: center;
+}
+a {
+  color: green;
+  margin: 0 10px;
+}
+a:visited {
+  color: green;
 }
