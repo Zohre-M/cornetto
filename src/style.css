@@ -5,14 +5,21 @@ body {
   background: var(--primary-color);
   text-align: center;
 }
+h1 {
+  text-transform: capitalize;
+}
 img {
   border-radius: 10px;
-  max-height: 80%;
+  max-height: 600px;
   width: auto;
+  margin-bottom: 30px;
 }
 a {
   color: green;
   margin: 0 10px;
+}
+p {
+  margin: 30px;
 }
 a:visited {
   color: green;
