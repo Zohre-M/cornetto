@@ -1,9 +1,14 @@
-.root {
+:root {
   --primary-color: #f8e8a6;
 }
 body {
   background: var(--primary-color);
   text-align: center;
+}
+img {
+  border-radius: 10px;
+  max-height: 80%;
+  width: auto;
 }
 a {
   color: green;
@@ -11,4 +16,13 @@ a {
 }
 a:visited {
   color: green;
+}
+.contact-link {
+  color: blue;
+}
+.contact-link:visited {
+  color: blue;
+}
+.link {
+  margin-bottom: 30px;
 }
